@@ -1,0 +1,58 @@
+{
+	"nav": {
+		"about": "About us",
+		"gallery": "Gallery",
+		"products": "Products",
+		"contact": "Contact"
+	},
+	"nav2": {
+		"fejlesztes": "Technological development at WOKER TRADE Ltd.",
+		"fejlesztes2": "Site development at WOKER TRADE Ltd.",
+		"fejlesztes3": "Introduction of flexible, family-friendly employment methods at WOKER TRADE Ltd."
+	},
+	"about": {
+		"title": "About us",
+		"line-1": "We would like to introduce you our company, WOKER TRADE Ltd. which is one of the most significant manufacturers and distributors of alcoholic beverages in Hungary. Our company was established in 1995. At that time it was a small workshop and now it has got premises of several hundred square metres, manufacturing and bottling almost fifty different products with the latest and most up-to-date technology. They include the best known Hungarian types of brandy as well as the favorite vodkas and other different types of brandy, whisky and other top quality drinks.",
+		"line-2": "The main range of our company is the wholesale of alkoholic beverages, we distribute not only the drinks manufactured by us but several other products, e.g. quality drinks, wine, soft drinks and tobacconists’ goods. We have got wholesale depositories in each county of Hungary where our colleagues welcome our customers.",
+		"line-3": "Our central premises, our tax warehouse are in Tabdi where we are at the disposal of our foreign partners before paying revenue tax in order to assist the import realisation for the Europen markets.",
+		"line-4": "We are continously extending the range of the products manufactured by us, we try to please our costumers whit permanent sales of the popular products and whit favourable payment conditions."
+	},
+	"products": {
+		"title": "Products",
+		"easy-cider": "Easy Szájder",
+		"woker-vodka": "Woker-vodka",
+		"cifraszuros": "Cifraszűrös",
+		"liliana": "Liliana",
+		"likor-vodka": "Likőr-vodka",
+		"palinka": "Pálinka",
+		"vilmoskorte": "Vilmoskörte",
+		"napoleon": "Napoleon",
+		"akacmezes-barack": "Akácmézes Barack",
+		"cherry-csaszarkorte-likor": "Cherry, Császár Körte likőr",
+		"walkertus-beloe-vodka": "Walkertus, Beloe vodka",
+		"keseru": "Keserű",
+		"paprika": "Paprika",
+		"dio-kevertlikor": "Dió - Kevertlikőr",
+		"betyarkorte-betyarszilva": "Betyárkörte - Betyárszilva",
+		"betyarbarack-betyarcseresznye": "Betyárbarack - Betyárcseresznye"
+	},
+	"gallery": {
+		"title": "Gallery",
+		"telephely": "Headquarter",
+		"telephelyfejlesztes": "Site development at WOKER TRADE Ltd.",
+		"telephelyfejlesztes2": "Site development",
+		"palackozo": "Bottling",
+		"moso": "Washer"
+	},
+	"contact": {
+		"title": "Contact",
+		"headquarter": "Headquarter:",
+		"wholesale": "Wholesale location:"
+	},
+	"content": {
+		"download": "Download"
+	},
+	"footer": {
+		"copyright": "Wóker Trade Kft. 2008., All rights reserved."
+	}
+}

@@ -1,0 +1,14 @@
+<app-about></app-about>
+
+<div class="row home-wrapper">
+    <div class="col">
+        <div class="row justify-content-around">
+            <div class="col-8 col-md-3 col-lg-3 col-xl-2 mb-2 mb-md-0 card px-0 product-card" *ngFor="let link of nav2Items; let i = index">
+                <img [src]="'../../../assets/image/'+link.img" class="card-img-top" [class.img-0]="i == 0" [alt]="link.name">
+                <div class="card-body align-middle bg-secondary text-white py-2 px-2">
+                  <p class="card-text text-center">{{ 'nav2.'+link.name | translate }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+<div class="container-fluid px-0 h-100">
+<div class="container-lg h-100">
+  <div class="row header justify-content-end" routerLink="">
+    <div class="col-auto px-0 align-self-end align-items-end lang-selector">
+      <img class="lang-img border border" src="./../assets/image/flags/Flag_of_Hungary.svg" alt="Flag_of_Hungary" (click)="changeLang('hu')">
+      <img class="lang-img border border" src="./../assets/image/flags/Flag_of_the_United_Kingdom.svg" alt="Flag_of_the_United_Kingdom" (click)="changeLang('en')">
+      <img class="lang-img border border" src="./../assets/image/flags/Flag_of_Germany.svg" alt="Flag_of_Germany" (click)="changeLang('de')">
+    </div>
+  </div>
+  <div class="row wrapper">
+    <div class="col-2 px-0 nav-wrapper">
+      <nav class="nav flex-column">
+        <a class="nav-link first text-center text-sm-start" routerLink="about" routerLinkActive="active">{{ 'nav.about' | translate }}</a>
+        <a class="nav-link text-center text-sm-start" routerLink="products" routerLinkActive="active">{{ 'nav.products' | translate }}</a>
+        <a class="nav-link text-center text-sm-start" routerLink="gallery" routerLinkActive="active">{{ 'nav.gallery' | translate }}</a>
+        <a class="nav-link text-center text-sm-start" routerLink="contact" routerLinkActive="active">{{ 'nav.contact' | translate }}</a>
+      </nav>
+      <div class="nav2-wrapper mt-3 d-none d-sm-block">
+        <ng-container *ngFor="let link of nav2Items; let i = index">
+          <div class="card my-1 border-0" [routerLink]="['content', link.link]">
+            <div class="card-body">
+              <p class="card-text"> {{ 'nav2.'+link.name | translate }}</p>
+            </div>
+            <img [src]="'./../assets/image/' + link.img" class="card-img-bottom" [classList]="'img-'+i" [alt]="link.name">
+          </div>
+        </ng-container>
+          
+      </div>
+    </div>
+    <div class="col pt-3 pb-3">
+      <router-outlet></router-outlet>
+    </div>
+    <div class="col-12 footer-line align-self-end">
+      <div class="row">
+        <div class="col">{{ 'footer.copyright' | translate }}</div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+

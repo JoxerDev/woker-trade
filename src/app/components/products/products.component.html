@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col mb-3">
+        <h3 class="text-center">{{ 'products.title' | translate }}</h3>
+    </div>
+</div>
+<div class="row row-cols-md-4 row-cols-lg-4 row-cols-xl-6 row-cols-sm-3 row-cols-2 g-2 products-wrapper align-items-center">
+    <div class="col" *ngFor="let product of productList">
+        <div class="card h-100 product-card" (click)="openProductInFullScreen(product.translate)">
+            <img [src]="'../../../assets/image/shop_products/' + product.img" class="card-img-top" [alt]="product.name">
+            <div class="card-body align-middle">
+              <p class="card-text text-center">{{ 'products.'+ product.translate | translate }}</p>
+            </div>
+        </div>
+    </div>
+</div>
