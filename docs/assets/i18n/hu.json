@@ -1,0 +1,58 @@
+{
+	"nav": {
+		"about": "Cégünkről",
+		"gallery": "Galéria",
+		"products": "Termékeink",
+		"contact": "Elérhetőségek"
+	},
+	"nav2": {
+		"fejlesztes": "Telephelyfejlesztés a Wóker Trade Kft-nél",
+		"fejlesztes2": "Technológiafejlesztés a Wóker Trade Kft-nél",
+		"fejlesztes3": "Rugalmas, családbarát foglalkoztatási módszerek bevezetése a Wóker Trade Kft-nél"
+	},
+	"about": {
+		"title": "Cégünkről",
+		"line-1": "Szeretnénk Önöknek bemutatni vállalatunkat, a Woker Trade Kft-t, amely Magyarország egyik legnagyobb szeszesital gyártó és forgalmazó társasága. Cégünk 1991-es alapítása óta az akkori kis üzemből mára több száz négyzetméteres telephelyen, új és a legfejlettebb technológiával gyárt és palackoz közel félszáz terméket. Idetartoznak a legismertebb magyar pálinkafélék, de ezeken túl a kedveltebb vodkafélék és a különböző brandyk, whiskyk és más kiváló minőségű italok.",
+		"line-2": "Vállalatunk fő profilja a szeszesitalok nagykereskedelmi értékesítése, ahol az általunk gyártott szeszesitalokon túl további más termékeket, mint különleges minőségű italok, borok, üdítők és dohányáruk kaphatók. Magyarországon minden megyében rendelkezünk nagykereskedelmi lerakattal, ahol munkatársaink nagy szeretettel várják vásárlóinkat.",
+		"line-3": "Központi telephelyünkön Tabdin, adóraktárunkban, a jövedéki adó megfizetése előtt tudunk külföldi partnereink számára rendelkezésre állni, hogy ezzel segítsük az európai piacok felé történő importértékesítést.",
+		"line-4": "Az általunk gyártott szeszesitalok körét folyamatosan bővítjük, vevőink által közkedvelt termékeinkből pedig állandó értékesítési akciókkal és kedvező fizetési feltételekkel igyekszünk vásárlóink kedvében járni."
+	},
+	"products": {
+		"title": "Termékeink",
+		"easy-cider": "Easy Szájder",
+		"woker-vodka": "Woker-vodka",
+		"cifraszuros": "Cifraszűrös",
+		"liliana": "Liliana",
+		"likor-vodka": "Likőr-vodka",
+		"palinka": "Pálinka",
+		"vilmoskorte": "Vilmoskörte",
+		"napoleon": "Napoleon",
+		"akacmezes-barack": "Akácmézes Barack",
+		"cherry-csaszarkorte-likor": "Cherry, Császár Körte likőr",
+		"walkertus-beloe-vodka": "Walkertus, Beloe vodka",
+		"keseru": "Keserű",
+		"paprika": "Paprika",
+		"dio-kevertlikor": "Dió - Kevertlikőr",
+		"betyarkorte-betyarszilva": "Betyárkörte - Betyárszilva",
+		"betyarbarack-betyarcseresznye": "Betyárbarack - Betyárcseresznye"
+	},
+	"gallery": {
+		"title": "Galéria",
+		"telephely": "Telephely",
+		"telephelyfejlesztes": "Telephelyfejlesztés a Wóker Trade Kft-nél",
+		"telephelyfejlesztes2": "Telephely fejlesztés",
+		"palackozo": "Palackozó",
+		"moso": "Mosó"
+	},
+	"contact": {
+		"title": "Elérhetőségek",
+		"headquarter": "Központi telephely:",
+		"wholesale": "Nagykereskedelmi telephely:"
+	},
+	"content": {
+		"download": "Letöltés"
+	},
+	"footer": {
+		"copyright": "Wóker Trade Kft. 2008., Minden jog fenntartva."
+	}
+}
