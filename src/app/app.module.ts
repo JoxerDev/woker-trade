@@ -18,6 +18,7 @@ import { HomeComponent } from './components/home/home.component';
 import { HttpClient } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { ContentComponent } from './components/content/content.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -49,7 +50,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     GalleryModule,
     LightboxModule,
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
